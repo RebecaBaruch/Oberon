@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oberon</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/img/fav-icon.png">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <script src="./assets/js/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;500;700;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="hero__section">
+        <nav class="nav__container">
+            <nav class="navbar">
+                <div class="nav__logo">
+                    <img src="./assets/img/logo.svg" alt="">
+                </div>
+                <div class="mobile__menu" onclick="mobileNavBar()">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav__links">
+                    <li><a href="#" onclick="mobileNavBar()">Quem somos</a></li>
+                    <li><a href="#" onclick="mobileNavBar()">Projetos</a></li>
+                    <li><a href="#" onclick="mobileNavBar()">Nosso Time</a></li>
+                    <li><a href="#" onclick="mobileNavBar()">Serviços</a></li>
+                </ul>
+            </nav>
+        </nav>
+        <div class="hero__texts">
+            <div class="left">
+                <h1>LOREM IPSUM DANE-SE</h1>
+                <p>Mais lorem ipsum porque não sei o que escrever</p>
+                <button>navegue</button>
+            </div>
+            <div class="right">
+                <img src="./assets/img/hero-circle.png" alt="">
+                <div class="line__text">
+                    <div class="circle">
+                    </div>
+                    <p>
+                        <strike>tecnologia</strike>
+                        sustentabilidade
+                        é o futuro
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about__section container-fluid pb-5">
+        <div class="container row mx-auto justify-content-between align-items-center">
+            <div class="col-sm-12 col-md-4 about__title mb-5">QUEM SOMOS</div>
+            <div class="col-sm-12 col-md-7 about__text">A Oberon existe porque precisamos de ideias tecnológicas
+                revolucionarias para as pessoas e o meio ambiente. Somos uma equipe comprometida com a inovação para
+                melhorar a qualidade de vida do ser humano e do próprio planeta.</div>
+        </div>
+        <div class="container-fluid our__values__bg ">
+            <div class="container our__values mt-5 px-5 py-5 mb-5">
+                <div class="row fs-1 mb-2 title values">
+                    Nossos valores
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                        <p class="title fs-3 mb-1">Excelência</p>
+                        <p class="text fs-5">
+                            Paixão ao compromisso de desenvolver os melhores produtos e serviços.
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <p class="title fs-3 mb-1">Mudança</p>
+                        <p class="text fs-5">
+                            Visões para o futuro, direcionando soluções que gerem ipacto.
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <p class="title fs-3 mb-1">Ambição</p>
+                        <p class="text fs-5">
+                            Visões para o futuro, direcionando soluções que gerem ipacto.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects__section container-fluid pb-5">
+        <div class="container row mx-auto justify-content-between align-items-center mt-5">
+            <div class="col-sm-12 col-md-4 projects__title px-3">Projetos</div>
+            <div class="col-sm-12 col-md-8 projects__text">Veja como é feito o nosso trabalho e confira os projetos mais
+                recentes desenvolvidos pelo nosso time.</div>
+        </div>
+        <section class="container-fluid">
+            <div class="cards container">
+                <div class="left__cards">
+                    <h2 class="recent">Mais recentes</h2>
+                    <div class="texts">
+                        <div class="logo">
+                            <img src="./assets/img/logo-odin.png" alt="">
+                        </div>
+                        <p class="info">
+                            Um sistema de rastreamento e coleta de lixo de praia. Drone e robô configurados por uma IA e
+                            uma interface onde o usuário pode controlar esses periféricos.
+                        </p>
+                        <button class="read__more">
+                            Ler mais sobre
+                        </button>
+                    </div>
+                    <div class="project__image">
+                        <img src="./assets/img/project-image.png" alt="">
+                    </div>
+                </div>
+                <div class="right__cards">
+                    <div class="texts proj2">
+                        <div class="title">
+                            <strong>Projetos Futuros</strong>
+                        </div>
+                        <p class="info">
+                            Texto de descrição rápida com hover.
+                        </p>
+                    </div>
+                    <div class="texts proj3">
+                        <div class="title">
+                            <strong>Projetos Futuros</strong>
+                        </div>
+                        <p class="info">
+                            Texto de descrição rápida com hover.
+                        </p>
+                    </div>
+                </div>
+        </section>
+        <div class="container d-flex justify-content-end mt-4">
+            <a class="fs-5 projects__link" href="#">ver todos os projetos</a>
+        </div>
+    </section>
+    <section class="team__section container-fluid pb-5">
+        <div class="container pb-5 team_container">
+            <div class="col-sm-12 col-md-5 px-3 mb-5 pt-5">
+                <h2 class="team__title">TEAM</h2>
+                <p class="team__subtitle">Conheça os integrantes da nossa equipe.</p>
+            </div>
+            <div class="team__members row d-flex justify-content-evenly">
+                <div class="col-sm-12 col-md-3 member__card card1">
+                    <div class="image">
+                        <img src="./assets/img/may.png" alt="">
+                    </div>
+                    <div class="member__infos">
+                        <h3 class="name">
+                            Mayara Karen
+                        </h3>
+                        <p class="role">
+                            Documentadora de sistemas, Scrum Master.
+                        </p>
+                        <div class="socials">
+                            <a href="#">
+                                <img src="./assets/img/linkedin.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/insta.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/twitter.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 member__card card2">
+                    <div class="image">
+                        <img src="./assets/img/beca.png" alt="">
+                    </div>
+                    <div class="member__infos">
+                        <h3 class="name">
+                            Rebeca Baruch
+                        </h3>
+                        <p class="role">
+                            UX/UI designer e web developer.
+                        </p>
+                        <div class="socials">
+                            <a href="#">
+                                <img src="./assets/img/linkedin.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/insta.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/twitter.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 member__card card3">
+                    <div class="image">
+                        <img src="./assets/img/rha.png" alt="">
+                    </div>
+                    <div class="member__infos">
+                        <h3 class="name">
+                            Rhauan de Jesus
+                        </h3>
+                        <p class="role">
+                            Java developer.
+                        </p>
+                        <div class="socials">
+                            <a href="#">
+                                <img src="./assets/img/linkedin.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/insta.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/twitter.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services__section container-fluid">
+        <div class="container services__container ">
+            <div class="row services__cards gx-2">
+                <h2 class="side__text">NOSSOS SERVIÇOS</h2>
+                <div class="col-5 _card card1">
+                    <p class="heading">Nossos serviços</p>
+                    <p class="text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus cursus mauris et erat
+                        pellentesque.
+                    </p>
+                </div>
+                <div class="col-5 _card card2">
+                    <p class="heading">UX/UI</p>
+                    <p class="text">
+                        Definimos a experiência que um usuário passaria ao interagir com um produto e criamos uma
+                        interface única para ele.
+                    </p>
+                </div>
+                <div class="col-5 _card card3">
+                    <p class="heading">Desenvolvimento Mobile</p>
+                    <p class="text">
+                        Criamos soluções de TI voltadas para tablets, smartphones e outros dispositivos móveis.
+                    </p>
+                </div>
+                <div class="col-5 _card card4">
+                    <p class="heading">Desenvolvimento Web</p>
+                    <p class="text">
+                        Construímos sites, portais e sistemas voltados para o ambiente da internet.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer__section">
+        <div class="footer__content">
+            <img src="./assets/img/logo-footer.png" alt="">
+            <p>Around the best</p>
+            <div class="socials">
+                <a href="#">
+                    <img src="./assets/img/linkedin.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="./assets/img/insta.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="./assets/img/twitter.svg" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="footer__bg">
+        </div>
+    </footer>
+</body>
+
+</html>
