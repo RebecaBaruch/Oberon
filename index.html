@@ -29,10 +29,10 @@
                     <div class="line3"></div>
                 </div>
                 <ul class="nav__links">
-                    <li><a href="#" onclick="mobileNavBar()">Quem somos</a></li>
-                    <li><a href="#" onclick="mobileNavBar()">Projetos</a></li>
-                    <li><a href="#" onclick="mobileNavBar()">Nosso Time</a></li>
-                    <li><a href="#" onclick="mobileNavBar()">Serviços</a></li>
+                    <li><a href="#about" onclick="mobileNavBar()">Quem somos</a></li>
+                    <li><a href="#projects" onclick="mobileNavBar()">Projetos</a></li>
+                    <li><a href="#team" onclick="mobileNavBar()">Nosso Time</a></li>
+                    <li><a href="#services" onclick="mobileNavBar()">Serviços</a></li>
                 </ul>
             </nav>
         </nav>
@@ -56,11 +56,12 @@
             </div>
         </div>
     </section>
-    <section class="about__section container-fluid pb-5">
+
+    <section id="about" class="about__section container-fluid pb-5">
         <div class="container row mx-auto justify-content-between align-items-center">
             <div class="col-sm-12 col-md-4 about__title mb-5">QUEM SOMOS</div>
-            <div class="col-sm-12 col-md-7 about__text">A Oberon existe porque precisamos de ideias tecnológicas
-                revolucionarias para as pessoas e o meio ambiente. Somos uma equipe comprometida com a inovação para
+            <div class="col-sm-12 col-md-7 about__text">A Oberon existe porque precisamos de ideias tecnológicas e
+                revolucionárias para as pessoas e o meio ambiente. Somos uma equipe comprometida com a inovação para
                 melhorar a qualidade de vida do ser humano e do próprio planeta.</div>
         </div>
         <div class="container-fluid our__values__bg ">
@@ -91,7 +92,8 @@
             </div>
         </div>
     </section>
-    <section class="projects__section container-fluid pb-5">
+
+    <section id="projects" class="projects__section container-fluid pb-5">
         <div class="container row mx-auto justify-content-between align-items-center mt-5">
             <div class="col-sm-12 col-md-4 projects__title px-3">Projetos</div>
             <div class="col-sm-12 col-md-8 projects__text">Veja como é feito o nosso trabalho e confira os projetos mais
@@ -110,7 +112,7 @@
                             uma interface onde o usuário pode controlar esses periféricos.
                         </p>
                         <button class="read__more">
-                            Ler mais sobre
+                            <a href="pages/odin.html">Ler mais sobre</a> 
                         </button>
                     </div>
                     <div class="project__image">
@@ -140,7 +142,8 @@
             <a class="fs-5 projects__link" href="#">ver todos os projetos</a>
         </div>
     </section>
-    <section class="team__section container-fluid pb-5">
+
+    <section id="team" class="team__section container-fluid pb-5">
         <div class="container pb-5 team_container">
             <div class="col-sm-12 col-md-5 px-3 mb-5 pt-5">
                 <h2 class="team__title">TEAM</h2>
@@ -222,7 +225,8 @@
             </div>
         </div>
     </section>
-    <section class="services__section container-fluid">
+
+    <section id="services" class="services__section container-fluid">
         <div class="container services__container ">
             <div class="row services__cards gx-2">
                 <h2 class="side__text">NOSSOS SERVIÇOS</h2>
@@ -255,6 +259,7 @@
             </div>
         </div>
     </section>
+
     <footer class="footer__section">
         <div class="footer__content">
             <img src="./assets/img/logo-footer.png" alt="">

@@ -6,7 +6,8 @@
     --darkblue-color: #0046B9;
 }
 
-body {
+body, 
+.odin-body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
@@ -27,7 +28,15 @@ body {
     background-attachment: fixed;
 }
 
-.fixed__nav {
+.odin-hero__section {
+    overflow: hidden;
+    background-size: cover;
+    min-width: 100%;
+    background-attachment: fixed;
+}
+
+.fixed__nav,
+.odin-hero__section{
     position: fixed;
     top: 0;
     width: 100%;
@@ -35,13 +44,15 @@ body {
     z-index: 9999;
 }
 
-.hero__section .nav__container {
+.hero__section .nav__container,
+.odin-hero__section .nav__container{
     font-family: 'Outfit', sans-serif;
     padding-top: 20px;
     min-height: 60px;
 }
 
-.hero__section .nav__container .navbar {
+.hero__section .nav__container .navbar,
+.odin-hero__section .nav__container .navbar{
     justify-content: space-between;
     display: flex;
     min-height: 60px;
@@ -50,17 +61,20 @@ body {
     align-items: center;
 }
 
-.hero__section .nav__container .navbar .nav__logo {
+.hero__section .nav__container .navbar .nav__logo,
+.odin-hero__section .nav__container .navbar .nav__logo{
     display: flex;
     align-items: center;
     min-height: 60px;
 }
 
-.hero__section .nav__container .navbar .nav__logo img {
+.hero__section .nav__container .navbar .nav__logo img, 
+.odin-hero__section .nav__container .navbar .nav__logo img{
     min-height: 30px;
 }
 
-.hero__section .nav__container .nav__links {
+.hero__section .nav__container .nav__links,
+.odin-hero__section .nav__container .nav__links {
     display: flex;
     list-style: none;
     width: 60%;
@@ -68,14 +82,16 @@ body {
     gap: 40px;
 }
 
-.hero__section .nav__container .nav__links li a {
+.hero__section .nav__container .nav__links li a,
+.odin-hero__section .nav__container .nav__links li a {
     color: #fff;
     text-decoration: none;
     font-size: 1.5rem;
     padding-bottom: 5px;
 }
 
-.hero__section .nav__container .nav__links li a {
+.hero__section .nav__container .nav__links li a,
+.odin-hero__section .nav__container .nav__links li a {
     background:
         linear-gradient(to right,
             transparent,
@@ -86,7 +102,8 @@ body {
             rgba(0, 100, 200, 1));
 }
 
-.hero__section .nav__container .nav__links li a {
+.hero__section .nav__container .nav__links li a 
+.odin-hero__section .nav__container .nav__links li a{
     background:
         linear-gradient(to right,
             transparent,
@@ -98,7 +115,8 @@ body {
     background-size: 100% 5px, 0 5px;
 }
 
-.hero__section .nav__container .nav__links li a {
+.hero__section .nav__container .nav__links li a,
+.odin-hero__section .nav__container .nav__links li a{
     background:
         linear-gradient(to right,
             transparent,
@@ -112,11 +130,13 @@ body {
     background-repeat: no-repeat;
 }
 
-.hero__section .nav__container .nav__links li a:hover {
+.hero__section .nav__container .nav__links li a:hover,
+.odin-hero__section .nav__container .nav__links li a:hover {
     background-size: 0 3px, 100% 3px;
 }
 
-.hero__section .nav__container .nav__links li a {
+.hero__section .nav__container .nav__links li a,
+.odin-hero__section .nav__container .nav__links li a{
     background:
         linear-gradient(to right,
             transparent,
@@ -151,6 +171,12 @@ body {
     font-size: 3.5rem;
     max-width: 70%;
     margin-bottom: 0;
+
+    background: linear-gradient(90deg, rgba(199, 227, 255, 0.413187) 0%, rgba(29, 141, 255, 0.8) 0.01%, rgba(113, 27, 255, 0.4) 44.79%, rgba(113, 27, 255, 0.552) 64.58%, rgba(113, 27, 255, 0.8) 100%), #1D8DFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
 
 .hero__section .hero__texts .left p {
@@ -164,6 +190,7 @@ body {
     z-index: 1;
     border: 0;
     font-size: 1.8rem;
+    font-weight: bold;
     color: #fff;
     padding: 18px 100px;
     background: linear-gradient(90deg, rgba(199, 227, 255, 0.413187) 0%, rgba(29, 141, 255, 0.8) 0.01%, rgba(113, 27, 255, 0.4) 44.79%, rgba(113, 27, 255, 0.552) 64.58%, rgba(113, 27, 255, 0.8) 100%), #1D8DFF;
@@ -238,6 +265,7 @@ body {
 
 .about__section .about__text {
     font-size: 1.4rem;
+    font-weight: lighter;
     line-height: 1;
     color: #fff;
 }
@@ -333,6 +361,10 @@ body {
     padding: 12px 30px;
     border-radius: 25px 0px;
     width: fit-content;
+}
+
+.projects__section .cards .left__cards .texts .read__more a{
+    text-decoration: none;
 }
 
 .projects__section .cards .right__cards {
@@ -458,6 +490,10 @@ body {
     left: 60px;
     top: 200px;
     z-index: 0;
+}
+
+.card1 .heading{
+    font-size: 2rem !important;
 }
 
 .services__cards {
@@ -643,6 +679,10 @@ body {
     }
 }
 
+/*Odin page*/
+.odin-body > img{
+    width: 100%;
+}
 /*
     Mobile
 */

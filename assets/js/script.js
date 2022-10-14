@@ -13,3 +13,6 @@ window.onscroll = () =>{
         document.querySelector('.hero__section .nav__container').classList.remove('fixed__nav')
     }
 }
+
+//xml
+
