@@ -16,7 +16,7 @@ window.onscroll = () =>{
 
 //xml
 /* importando o xml e colocando a lista na variavel textsArray*/
-const putTexts = async () =>{
+/*const putTexts = async () =>{
     let textsArray;
     await fetch('../xml/texts.xml')
     .then(response => response.text())
@@ -34,10 +34,10 @@ const putTexts = async () =>{
     let divsXml = document.querySelectorAll('[data-text]')
     divsXml.forEach((item, index) =>{
         console.log(textsArray[index].attributes)
-        if(item.dataset.text == textsArray[index].attributes.val.value){
+        if(item.dataset.text == textsArray[index].attributes[0].value){
             item.innerHTML = textsArray[index].innerHTML
         }
     })
 }
 
-putTexts()
+putTexts()*/
